@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4Ads Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-blue': '#2563EB',
+              'brand-dark-blue': '#1E3A8A',
+              'brand-light-blue': '#EFF6FF',
+              'brand-green': '#10B981',
+              'brand-light-green': '#ECFDF5',
+              'brand-purple': '#8B5CF6',
+              'brand-light-purple': '#F5F3FF',
+              'brand-orange': '#F97316',
+              'brand-light-orange': '#FFF7ED',
+              'brand-red': '#EF4444',
+              'brand-light-red': '#FEF2F2',
+            },
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
